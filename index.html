@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/9025689ed9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="source/css/normalize.css">
+    <link rel="stylesheet" href="source/css/reset.css">
+    <link rel="stylesheet" href="source/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__container">
+                <li class="navbar__item"><a href="#sobremi" class="link">Sobre mi</a></li>
+                <li class="navbar__item"><a href="#experiencia" class="link">Experiencia</a></li>
+                <li class="navbar__item"><a href="#proyectos" class="link">Proyectos</a></li>
+                <li class="navbar__item"><a href="#habilidades" class="link">Habilidades</a></li>
+                <li class="navbar__item"><a href="#educacion" class="link">Formación</a></li>
+                <li class="navbar__item"><a href="#contactame" class="link">Contáctame</a></li>
+            </ul>
+        </nav>
+    <div class="hero">
+        <div class="profile-image">
+            <img class="profile-image__element"src="/source/img/index.jpeg" alt="image_profile">
+        </div>
+        <div class="hero-text">
+            <h1 class="hero-text__title font-semibold ">Iván Salazar Mendoza</h1>
+            <div class="hero-text__content">
+                <p class="hero-text__description font-semibold">
+                Bienvenido a mi portafolio, mi nombre es Iván y 
+                te invito a que conozcas un poco sobre mi.</p>
+            </div>
+        </div>
+        <div class="hero-icons">
+            <div class="hero-icons__item">
+                <a href="https://www.linkedin.com/in/ivan-salazar-mendoza/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a>
+            </div>
+            <div class="hero-icons__item">
+                <a href="https://github.com/ism1100001"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <main class="main">
+        <section class="section__container">
+            <div class="sobremi">
+                <h2 id="sobremi" class="section__title font-size-25">Sobre mi</h2>
+                <div class="section__content">
+                    <p class="margin-tb-0">Soy ingeniero en computación, egresado de la Universidad Autonoma de Baja California (UABC), 
+                        tengo conocimientos en Kubernetes y Docker gracias a mi voluntariado en el proyecto
+                        TAOS-II de la Universidad Nacional Autonoma de México (UNAM) del Instituto de Astronomia (IA). 
+                        Actualmente tengo 26 años de edad y soy de México.</p>
+                       <p>Mis objetivos en este año son:</p>
+                    <ul class="sobremi-list">
+                        <li class="sobremi-list__item">Obtener mi certificado CCNA de Cisco.</li>
+                        <li class="sobremi-list__item">Finalizar mis estudios de Front-End del proyecto Oracle ONE en Alura Latam.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__container">
+            <h2 id="experiencia" class="section__title font-size-25">Experiencia</h2>
+            <div class="section__content">
+                <h3 class="section-container__title font-size-20">Kubernetes Administrator</h3>
+                <h4 class="section-container__location font-size-14">Universidad Nacional Autónoma de México (UNAM)</h4>
+                <small class="section-container__date font-semibold">August 2022 - June 2023</small>
+                <p class="margin-tb-0">
+                    Implementé, configuré y administré un cluster on-premise de kubernetes de alta disponibilidad, 
+                    el cluster cuenta con 14 nodos en total. El objetivo del cluster es poder desplegar servicios 
+                    que permitan el almacenamiento de los datos obtenidos del proyecto TAOS-II.
+                </p>
+            </div>
+        </section>
+
+        <section class="section__container">
+            <h2 id="proyectos" class="section__title font-size-25">Proyectos</h2>
+            <div class="section__content">
+                <h3 class="section-container__title font-size-20">Encriptador de texto</h3>
+                <h4 class="section-container__location font-size-14">Oracle ONE | Alura Latam</h4>
+                <small class="section-container__date font-semibold">Mayo 2023</small>
+                <p class="margin-tb-0">
+                    Parte de un Challenge del programa Front-End de Oracle ONE en Alura Latam 
+                </p>
+                <div class="buttonrp">
+                    <a href="https://github.com/ism1100001/Alura-Portafolio" class="buttonrp__button link">Repositorio</a>
+                    <a href="https://ism1100001.github.io/Alura-Portafolio/" class="buttonrp__button link">Demo</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__container">
+            <h2 id="habilidades" class="section__title font-size-25">Skills</h2>
+            <div class="section__content box-flex">
+                <div class="pill">
+                    <div class="pill__icon">
+                        <img class="pill__svg" src="/source/img/k8s.svg" alt="kubernetes_svg">
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">Kubernetes</p>
+                </div>
+                <div class="pill">
+                    <div class="pill__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg>
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">Docker</p>
+                </div>
+                <div class="pill">
+                    <div class="pill__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/></svg>                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">Python 3</p>
+                </div>
+                <div class="pill">
+                    <div class="pill__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M329.1 142.9c-62.5-62.5-155.8-62.5-218.3 0s-62.5 163.8 0 226.3s155.8 62.5 218.3 0c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3c-87.5 87.5-221.3 87.5-308.8 0s-87.5-229.3 0-316.8s221.3-87.5 308.8 0c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0z"/></svg>                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">ANSI C</p>
+                </div>
+                <div class="pill">
+                    <div class="pill__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>                    
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">HTML</p>
+                </div>
+                <div class="pill">
+                    <div class="pill__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>                   
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">CSS</p>
+                </div>
+            <!--FIN DIV-->
+            </div>
+        </section>
+
+        <section class="section__container">
+            <h2 class="section__title font-size-25">Soft Skills</h2>
+            <div class="section__content box-flex">
+                <div class="pill">
+                    <div class="pill__icon">
+                        <img class="pill__svg" src="/source/img/sk-or.svg" alt="result-oriented_svg ">
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">Orientado a resultados</p>
+                </div>
+                <div class="pill">
+                    <div class="pill__icon">
+                        <img class="pill__svg" src="/source/img/sk-ac.svg" alt="Autocritic_svg">
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">Autocrítico</p>
+                </div>
+                <div class="pill">
+                    <div class="pill__icon">
+                        <img class="pill__svg" src="/source/img/sk-ea.svg" alt="ActiveListenning_svg">
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">Escucha activa</p>
+                </div>
+                <div class="pill">
+                    <div class="pill__icon">
+                        <img class="pill__svg" src="/source/img/sk-adp.svg" alt="Adaptability_svg">
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">Adaptabilidad</p>
+                </div>
+            <!--FIN DIV-->
+            </div>
+        </section>
+
+        <section class="section__container">
+            <h2 class="section__title font-size-25">Hobbies</h2>
+            <div class="section__content box-flex">
+                <div class="pill">
+                    <div class="pill__icon">
+                        <img class="pill__svg" src="/source/img/h-games.svg" alt="result-oriented_svg ">
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">Videojuegos</p>
+                </div>
+                <div class="pill">
+                    <div class="pill__icon">
+                        <img class="pill__svg" src="/source/img/h-chef.svg" alt="Autocritic_svg">
+                    </div>
+                    <p class="pill__text margin-tb-0 font-semibold font-size-14">Cocinar</p>
+                </div>
+            <!--FIN DIV-->
+            </div>
+        </section>
+
+        <section class="section__container">
+            <h2 id="educacion" class="section__title font-size-25">Formación Académica</h2>
+            <div class="section__content">
+                <img src="/source/img/fa-uabc.svg" alt="uabc_img">
+                <h3 class="main-container__title font-size-20 uabc-title">Ingeniería en Computación</h3>
+                <small class="main-container__date font-medium uabc-date">Junio 2021</small>
+
+            </div>
+        </section>
+
+        <section class="section__container">
+            <h2 id="contactame" class="section__title font-size-25">Contactame</h2>
+            <form class="contacto__form" name="form">
+                 <input class="contacto__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required="">
+                 <input class="contacto__input" type="email" name="email" id="email" placeholder="E-Mail" required="">
+                 <input class="contacto__input" type="text" name="asunto" id="asunto" placeholder="Asunto" required="">
+                 <textarea class="contacto__input contacto__textarea" name="mensaje" id="mensaje" placeholder="Mensaje"  required=""></textarea>
+                <button class="contacto__submit" type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer__text margin-tb-0 font-size-14 font-semibold">Iván Salazar Mendoza<span class="font-size-14 font-medium"> - 2023</span> </p>
+        <div class="hero-icons">
+            <div class="hero-icons__item">
+                <a href="https://www.linkedin.com/in/ivan-salazar-mendoza/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a>
+            </div>
+            <div class="hero-icons__item">
+                <a href="https://github.com/ism1100001"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
